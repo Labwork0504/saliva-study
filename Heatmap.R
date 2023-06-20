@@ -5,7 +5,7 @@ library(circlize)
 library(tidyverse)
 
 getwd()
-setwd("//mac/Home/OneDrive - sjtu.edu.cn/saliva V3V4/correlation/R")
+setwd("")
 df1 <- read.table("13. factorfinal.txt",row.names = 1) %>%t() %>%
   as_tibble() %>%  column_to_rownames("Factor") %>% mutate(across(where(is.character),as.numeric))  
 df2 <-
