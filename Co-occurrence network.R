@@ -1,4 +1,4 @@
-# Co-occurrence networks
+# Co-occurrence network
 # setwd("~/")
 
 # install.packages("igraph")
